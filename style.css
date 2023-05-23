@@ -5,7 +5,7 @@ html {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
@@ -23,6 +23,7 @@ svg {
   border-radius: 50%;
   width: 200px;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .wrapper {
@@ -81,7 +82,7 @@ h2 {
 }
 
 .check-all,
-.clear-all {
+.clear {
   padding: 10px;
   outline: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
